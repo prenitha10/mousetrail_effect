@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+.mouse-trail {
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .trail-dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(243, 77, 187, 0.922); 
+    transform: translate(-50%, -50%);
+  }
+  

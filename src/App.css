@@ -1,0 +1,41 @@
+/* App.css */
+
+/* Main container styling for the entire app */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Styling for each individual container */
+.container {
+  width: 100%;
+  max-width: 800px; /* Adjust width as needed */
+  padding: 20px;
+  margin: 10px 0; /* Margin to separate containers */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #0b0000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for the container titles */
+.container-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #faf5f5;
+}
+
+/* Optional: Additional styling for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    margin: 10px 0;
+  }
+}
+
+
